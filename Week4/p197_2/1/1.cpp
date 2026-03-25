@@ -17,6 +17,7 @@ int reverse(int n)
 
 int main()
 {
+    int n;
     int input;
     int output;
     
