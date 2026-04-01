@@ -1,0 +1,1 @@
+void checkMap( int map[5][5])
