@@ -5,6 +5,19 @@
 using namespace std;
 
 
+struct MyTime {
+    int hour;
+    int minute;
+    int second;
+    int millisecond;
+
+    void convert(double duration);
+    void reset();
+    void print();
+    MyTime add(MyTime t);
+    void read();
+};
+
 void MyTime::convert(double duration) {
   
     hour = (int)(duration / 3600);
