@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 using namespace std;
 
 class Point{
@@ -30,7 +31,7 @@ class rectangle : public Point{
 
 int main(){
 
-    Rectangle rect(2, 3, 100, 200);
+    rectangle rect(2, 3, 100, 200);
     rect.draw();
 
     return 0;
